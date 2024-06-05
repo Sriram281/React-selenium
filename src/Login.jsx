@@ -60,10 +60,10 @@ const Login = () => {
 
   const one = () => {
     {
-      console.log("works");
+      
       userdetails &&
         userdetails.map((m) => {
-          if (m.email === email && m.password == password) {
+          if (m.email === email && m.password === password) {
             window.localStorage.setItem("studentID", m.student_id);
             // alert("Login successful");
             nav("/Title_alter");
