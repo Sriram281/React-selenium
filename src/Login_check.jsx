@@ -5,8 +5,12 @@ const Login_check = () => {
   const nav = useNavigate();
   const storage = window.localStorage.getItem("studentID");
   useEffect(() => {
-    if (storage) {
-    } else {
+    // if (storage) {
+    // } else {
+    //   nav("/");
+    // }
+
+    if(!storage){
       nav("/");
     }
   }, []);
