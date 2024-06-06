@@ -46,6 +46,8 @@ const Login = () => {
   useEffect(() => {
     if (storage) {
       nav("/Title_alter");
+    }else{
+       nav("/");
     }
   }, []);
 
