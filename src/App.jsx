@@ -63,7 +63,7 @@ import Chrome_options from "./Advanced_workout_topics/Chrome_options";
 import Desired_Capabilities from "./Advanced_workout_topics/Desired_capabilities";
 import SetProperty from "./Advanced_workout_topics/set_property";
 import Model_for_image from "./Model_for_image";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Eduspere_logo from "./Edusphere_logo";
 import Introduction from "./Introduction";
 import Search from "./Search";
@@ -154,7 +154,7 @@ const App = () => {
           element={<Navigate_and_configuration />}
         />
         <Route path="/Model_for_image" element={<Model_for_image />} />
-        <Route path="/footer" element={<Footer />} />
+{/*         <Route path="/footer" element={<Footer />} /> */}
         <Route path="/edusphere_images_comp" element={<Eduspere_logo />} />
         <Route path="/Introduction" element={<Introduction />} />
         <Route path="/search" element={<Search />} />
