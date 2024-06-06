@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { PiCopyrightBold } from "react-icons/pi";
 
 const Footer = () => {
-  console.log("working");
+  
   return (
     <>
       {/* rgb(125, 112, 138) */}
