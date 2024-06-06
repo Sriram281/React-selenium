@@ -8,8 +8,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const nav = useNavigate();
   const storage = window.localStorage.getItem("studentID");
 
@@ -27,7 +27,7 @@ const Login = () => {
       student_id: "student01",
       name: "hari",
       email: "student@gmail.com",
-      password: 1234567890,
+      password: "1234567890",
     },
     // {
     //   student_id: "student02",
