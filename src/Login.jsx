@@ -198,7 +198,7 @@ const Login = () => {
                       //     }
                       //   });
                       userdetails.map((m) => {
-                        if (m.email == email && m.password == password) {
+                        if (m.email === email && m.password === password) {
                           window.localStorage.setItem(
                             "studentID",
                             m.student_id
